@@ -11,7 +11,7 @@ function App() {
 
   useEffect(() => {
     dispatch(addPositions(data));
-  }, []);
+  });
   return (
     <>
       <TheHeader />
